@@ -26,7 +26,7 @@ const onKeyPress= (event) =>{
       
       <header className={styles.hi}>
         <div className={styles.logo}>
-        <img className={styles.img} src="/public/images/칩캣.png" alt="logo" />
+        <img className={styles.img} src="/images/logo.png" alt="logo" />
         <h1 className={styles.title}>Chipday</h1>
         </div>
         <input className={styles.input} ref={inputRef}  type="search" placeholder="Search..." onKeyPress={onKeyPress}/>
