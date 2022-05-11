@@ -1,0 +1,12 @@
+~ mkdir flask-server
+~ touch server.py
+~  npx create-react-app client
+server.py :: api route
+package.json :: flask proxy -> "proxy": "http://localhost:5000",
+
+react run
+~ cd /client
+~ npm start
+terminal 종료시 서버다운
+~ lsof -i :3000
+~ kill -9 pid
